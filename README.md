@@ -1,6 +1,8 @@
 # Gaussian mixture error estimation for approximate circuits
 
 ![GMEE](GMEE.png)
+Approximate functional units are modelled as a combination of a non-approximate equivalent with filter functions cFF and eFF applied to the output to produce the correct and error components.
+
 ## The publication
 The paper is available at [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/7927004)
 
