@@ -1,0 +1,56 @@
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016a (9.0.0.341360) 64-bit (glnxa64)
+                             February 11, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> 
+ans = 
+
+
+Linear regression model:
+    EM_Z ~ 1 + EM_A + EM_B
+
+Estimated Coefficients:
+                   Estimate       SE        tStat       pValue  
+                   ________    ________    _______    __________
+
+    (Intercept)     0.1637       1.5851    0.10327       0.92111
+    EM_A           0.83544     0.071159      11.74    2.3047e-05
+    EM_B           0.79199     0.079298     9.9874    5.8338e-05
+
+
+Number of observations: 9, Error degrees of freedom: 6
+Root Mean Squared Error: 2.02
+R-squared: 0.968,  Adjusted R-Squared 0.957
+F-statistic vs. constant model: 90.6, p-value = 3.3e-05
+>> >> >> 
+ans = 
+
+
+Linear regression model:
+    EM_Z ~ 1 + EM_A + EM_B + EM_in
+
+Estimated Coefficients:
+                   Estimate      SE        tStat        pValue  
+                   ________    ______    _________    __________
+
+    (Intercept)    0.91412     94.917    0.0096308       0.99269
+    EM_A            19.765     2.5281        7.818    0.00054897
+    EM_B            18.124     5.7398       3.1576      0.025164
+    EM_in          0.68108     1.5283      0.44566       0.67448
+
+
+Number of observations: 9, Error degrees of freedom: 5
+Root Mean Squared Error: 71.8
+R-squared: 0.946,  Adjusted R-Squared 0.913
+F-statistic vs. constant model: 28.9, p-value = 0.00138
+>> >> >> >> >> >> >> 
+Simulation Time is: 458 (s)
+
